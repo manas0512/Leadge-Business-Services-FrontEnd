@@ -1,0 +1,69 @@
+/* app.component.scss */
+
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+/* Scheduler styles */
+.scheduler {
+  width: 90%; /* Adjust width as needed */
+  max-width: 1200px; /* Max width for larger screens */
+  height: 80%; /* Adjust height as needed */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: #ffffff; /* White background */
+}
+
+/* Header styles */
+.scheduler-header {
+  background-color: #007bff; /* Blue header background */
+  color: #ffffff; /* Header text color */
+  padding: 15px 20px; /* Padding for header content */
+  border-top-left-radius: 10px; /* Rounded corners for top left */
+  border-top-right-radius: 10px; /* Rounded corners for top right */
+}
+
+/* View styles */
+.scheduler-view {
+  padding: 20px; /* Add padding to views */
+}
+
+/* Table styles */
+.dx-scheduler-date-table {
+  width: 100%; /* Make table fill container width */
+  border-collapse: collapse; /* Collapse table borders */
+}
+
+.dx-scheduler-date-table th,
+.dx-scheduler-date-table td {
+  padding: 10px; /* Add padding to table cells */
+  border-bottom: 1px solid #ccc; /* Light border between rows */
+}
+
+/* Appointment styles */
+.dx-scheduler-appointment {
+  background-color: #28a745; /* Green background for appointments */
+  color: #ffffff; /* Text color for appointments */
+  border: none; /* Remove borders */
+}
+
+.dx-scheduler-appointment:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Button styles */
+.dx-scheduler-navigator-button {
+  background-color: #007bff; /* Blue background for buttons */
+  color: #ffffff; /* Button text color */
+}
+
+.dx-scheduler-navigator-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Adjust styles as needed */
